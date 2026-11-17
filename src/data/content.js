@@ -135,13 +135,14 @@ export const menuSections = [
  *
  * To add a partner: put its logo in src/assets/partners/ (SVG, PNG, WebP or JPG) and add an entry
  * here with the file name (letter case doesn't matter). `name` is the logo's alt text; `href` is
- * optional (the logo becomes a link). Any logo file in that folder that isn't listed here still
- * appears, named after its file. The slider shows logos only: an entry whose file can't be found
- * is skipped (and reported in the browser console during development).
+ * optional (the logo becomes a link). `hoverBg` is optional: the tile's background colour on hover
+ * (e.g. a brand colour). Any logo file in that folder that isn't listed here still appears, named
+ * after its file. The slider shows logos only: an entry whose file can't be found is skipped
+ * (and reported in the browser console during development).
  */
 export const partners = [
   { name: 'Flutterwave', logo: 'Flutterwave-Logo.webp', href: 'https://flutterwave.com' },
-  { name: 'MTN', logo: 'mtn-logo.svg', href: 'https://mtn.com' },
+  { name: 'MTN', logo: 'mtn-logo.svg', href: 'https://mtn.com', hoverBg: '#ffcb05' },
   { name: 'AirtelTigo', logo: 'AirtelTigo-Logo.webp', href: 'https://airteltigo.com' },
   { name: 'GLO', logo: 'GLO-Logo.webp', href: 'https://glo.com' },
   // { name: 'Partner five' },
