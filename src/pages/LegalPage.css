@@ -11,7 +11,7 @@
 .legal-back:hover{color:var(--ink)}
 .back-ico{rotate:180deg;transition:transform .4s var(--ease-expo)}
 .legal-back:hover .back-ico{transform:translateX(3px)}  /* rotated, so this moves it left */
-.legal-title{font-family:var(--f-display);font-weight:var(--fw-hero);letter-spacing:-.04em;line-height:1;font-size:var(--fs-hero);max-width:12ch}
+.legal-title{font-family:var(--f-display);font-weight:var(--fw-hero);letter-spacing:-.03em;line-height:1.1;font-size:var(--fs-hero);max-width:12ch}
 .legal-head .lede{max-width:46ch}
 .legal-meta{font-size:.875rem;font-weight:600;color:var(--teal-ink)}
 
