@@ -45,7 +45,7 @@ const IDLE = 2500;
 
 function Logo({ p, hidden }) {
   const inner = <img src={p.src} alt={hidden ? '' : p.name} loading="lazy" draggable="false" />;
-  const style = p.hoverBg ? { '--partner-hover': p.hoverBg } : undefined;
+  const style = p.bg ? { '--partner-bg': p.bg } : undefined;
   return (
     <li className="partner" aria-hidden={hidden || undefined} style={style}>
       {p.href
